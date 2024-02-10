@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwind CSS Text-color</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'purple': '#3f3cbb',
+      'midnight': '#121063',
+      'metal': '#565584',
+      'tahiti': '#3ab7bf',
+      'silver': '#ecebff',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    },
+            screens: {
+              sm: "567px",
+              // => @media (min-width: 640px) { ... }
+  
+              md: "768px",
+              // => @media (min-width: 768px) { ... }
+  
+              lg: "1024px",
+              // => @media (min-width: 1024px) { ... }
+  
+              xl: "1280px",
+              // => @media (min-width: 1280px) { ... }
+  
+              "2xl": "1536px",
+              // => @media (min-width: 1536px) { ... }
+            },
+            extend: {
+              screens: {
+                lg: "992px",
+                // => @media (min-width: 992px) { ... }
+              },
+              colors: {
+                clifford: "#da373d",
+                nicecolor: "#FA8072",
+                secondcolor: "#6495ED",
+                red:'#DE3163'
+              },
+            },
+          },
+        };
+      </script>
+</head>
+<body>
+    <div class="container mx-auto">
+        <h1 class="text-3xl sm:text-center py-10 red text-metal">
+            Welcome , Maa Radhe
+          </h1>
+
+          <h1 class="text-3xl sm:text-center py-10 red text-[green]">
+            Welcome , Maa 
+          </h1>
+
+    </div>
+</body>
+</html>
+<script>
+    /*
+       Q. I want change my text color
+       Ans. 
+
+       Customization
+       
+       Customizing Colors
+       Customizing the default color palette for your project.
+       Default color palette
+       Tailwind includes an expertly-crafted default color palette out-of-the-box that is a great starting point if you don’t have your own specific branding in mind.
+
+
+        colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'purple': '#3f3cbb',
+      'midnight': '#121063',
+      'metal': '#565584',
+      'tahiti': '#3ab7bf',
+      'silver': '#ecebff',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    },
+
+
+    [blue] is braket me koi bhi color pass kar do , yehi kaam karega
+
+    */
+</script>
