@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css Grid column</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'purple': '#3f3cbb',
+      'midnight': '#121063',
+      'metal': '#565584',
+      'tahiti': '#3ab7bf',
+      'silver': '#ecebff',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    },
+            screens: {
+              sm: "567px",
+              // => @media (min-width: 640px) { ... }
+  
+              md: "768px",
+              // => @media (min-width: 768px) { ... }
+  
+              lg: "1024px",
+              // => @media (min-width: 1024px) { ... }
+  
+              xl: "1280px",
+              // => @media (min-width: 1280px) { ... }
+  
+              "2xl": "1536px",
+              // => @media (min-width: 1536px) { ... }
+            },
+            extend: {
+              screens: {
+                lg: "992px",
+                // => @media (min-width: 992px) { ... }
+              },
+              colors: {
+                clifford: "#da373d",
+                nicecolor: "#FA8072",
+                secondcolor: "#6495ED",
+                red:'#DE3163'
+              },
+            },
+          },
+        };
+      </script>
+</head>
+<body>
+   <div class="max-w-[1200px] bg-[red] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 py-5 ">
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+   </div>
+</body>
+</html>
+<script>
+    /*
+    Tailwind css Grid column
+
+    Flexbox & Grid
+
+     Grid Column Start / End
+     Utilities for controlling how elements are sized and placed across grid columns.
+     
+
+    // apply inside child 
+    col-span-full: it capture full col 
+    col-span-2 : double the body
+    col-span-3 : thriple the body
+    col-start-1, 2,3, : means where you want to start your box 
+
+
+
+
+
+
+
+
+
+    */
+</script>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'purple': '#3f3cbb',
+      'midnight': '#121063',
+      'metal': '#565584',
+      'tahiti': '#3ab7bf',
+      'silver': '#ecebff',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    },
+            screens: {
+              sm: "567px",
+              // => @media (min-width: 640px) { ... }
+  
+              md: "768px",
+              // => @media (min-width: 768px) { ... }
+  
+              lg: "1024px",
+              // => @media (min-width: 1024px) { ... }
+  
+              xl: "1280px",
+              // => @media (min-width: 1280px) { ... }
+  
+              "2xl": "1536px",
+              // => @media (min-width: 1536px) { ... }
+            },
+            extend: {
+              screens: {
+                lg: "992px",
+                // => @media (min-width: 992px) { ... }
+              },
+              colors: {
+                clifford: "#da373d",
+                nicecolor: "#FA8072",
+                secondcolor: "#6495ED",
+                red:'#DE3163'
+              },
+            },
+          },
+        };
+      </script>
+</head>
+<body>
+    <div class="max-w-[1200px] mx-auto bg-[blue] text-white p-5 text-center">
+      <h1>Welcome bhai </h1>
+    </div>
+   <div class="max-w-[1200px] bg-[red] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 py-5 ">
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+     <div class="bg-[green] py-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, consequuntur?</div>
+   </div>
+
+</body>
+</html>
+<script>
+    /*
+
+      Spacing
+
+        Padding
+        Utilities for controlling an element's padding.
+   Padding
+   p-0 means , top, right, bottom , left, charo taraf se padding 0 dena hai
+   pt- padding top
+   pb - padding bottom
+   pl- padding left
+   pr - padding right
+   py- padding top botom (y axis)
+   px- padding left right (x axis)
+
+
+  p-4,
+   ye app apne se bhi px set kar sakte hai 
+   p-[60px]
+
+
+   text-center - your text set in center
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    */
+</script>
